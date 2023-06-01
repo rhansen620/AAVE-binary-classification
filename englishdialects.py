@@ -53,7 +53,7 @@ print (features.shape)
 le = preprocessing.LabelEncoder()
 le.fit(labels)
 
-What are the labels?
+#What are the labels?
 list(le.classes_)
 
 #Creates a label vector
